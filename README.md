@@ -8,7 +8,7 @@ This is a simple web application that classifies news articles as **Real** or **
 Users can input a news **title** and **content**, then click the **Predict** button to check if the news is real or fake.
 
 <p align="center">
-  <img src="app/static/bg2.gif" width="600" alt="Demo Screenshot" />
+  <img src="demo.gif" width="600" alt="Demo Screenshot" />
 </p>
 
 ---
@@ -74,7 +74,6 @@ Tweet_Spam/
 
 - **Python**
 - **FastAPI**
-- **Jinja2 Templates**
 - **Pandas, Joblib, Scikit-learn**
 - **HTML/CSS (pixel-art theme)**
 
@@ -143,4 +142,4 @@ This project is for educational purposes. Feel free to modify it for your own us
 
 ## 👨‍💻 Author
 
-- [Your Name or GitHub](https://github.com/yourusername)
+- Pea(Nguyen Ngoc Phuc)
