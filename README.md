@@ -110,16 +110,6 @@ uvicorn app.main:app --reload
 
 ---
 
-## ✨ Screenshots
-
-### Web Interface
-
-<p align="center">
-  <img src="scripts/demo_ui.png" width="600" alt="UI Screenshot" />
-</p>
-
----
-
 ## 🧪 Dataset
 
 The dataset is split into:
