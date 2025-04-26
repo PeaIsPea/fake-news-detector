@@ -61,9 +61,13 @@ Tweet_Spam/
 
 ### Classification Report
 
-<p align="center">
-  <img src="rp.png" width="600" alt="Classification Report">
-</p>
+| Class        | Precision | Recall | F1-Score | Support |
+|--------------|-----------|--------|----------|---------|
+| fake         | 0.61      | 0.98   | 0.75     | 1655    |
+| true         | 0.99      | 0.84   | 0.91     | 6723    |
+| Accuracy     |           |        | 0.87     | 8378    |
+| Macro Avg    | 0.80      | 0.91   | 0.83     | 8378    |
+| Weighted Avg | 0.92      | 0.87   | 0.88     | 8378    |
 
 - **Accuracy**: 87%
 - **F1-score (Fake)**: 0.75  
