@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Predict True or False News</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="pixel-title">📄 Predict True or False News</h1>
+
+        <form method="post">
+            <label>Title:</label>
+            <input type="text" name="title" value="{{ title or '' }}">
+
+            <label>Content:</label>
+            <textarea name="content" rows="8" cols="60">{{ content or '' }}</textarea>
+
+            <button type="submit">🔍 Predict</button>
+        </form>
+
+        <div class="result-box">
+            {% if result %}
+                <div class="result">{{ result }}</div>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>
