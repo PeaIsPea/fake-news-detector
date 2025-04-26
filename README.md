@@ -36,8 +36,10 @@ Tweet_Spam/
 │
 ├── scripts/
 │   ├── train_model.py             # Model training script
-│   ├── Figure_1.png               # Confusion matrix
-│   └── Figure_2.png               # Classification report
+│
+│── Figure_1.png               # Confusion matrix
+│── rp.png               # Classification report
+│── demo.gif              #demo
 ```
 
 ---
@@ -47,7 +49,7 @@ Tweet_Spam/
 ### Confusion Matrix
 
 <p align="center">
-  <img src="scripts/Figure_1.png" width="400" alt="Confusion Matrix">
+  <img src="Figure_1.png" width="400" alt="Confusion Matrix">
 </p>
 
 - **True Positives (Real predicted as Real)**: 5685  
@@ -60,7 +62,7 @@ Tweet_Spam/
 ### Classification Report
 
 <p align="center">
-  <img src="scripts/Figure_2.png" width="600" alt="Classification Report">
+  <img src="rp.png" width="600" alt="Classification Report">
 </p>
 
 - **Accuracy**: 87%
